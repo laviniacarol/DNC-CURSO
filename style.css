@@ -1,0 +1,154 @@
+@font-face {
+    font-family: quick;
+    src: url(Quicksand-Light.woff);
+}
+
+@font-face {
+    font-family: serrat;
+    src: url(Montserrat-Light.woff);
+}
+
+@font-face {
+    font-family: perandory;
+    src: url(perandory.woff);
+}
+
+@font-face {
+    font-family: edwardian;
+    src: url(edwardian.woff);
+}
+
+/*CABEÇALHO*/
+#header {
+    background-color: rgba(49, 101, 161, 0.671);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 70px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+/*nome e função no header*/
+#nameAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nameAndTitle h1, h2 {
+    margin: 0;
+    top: -28px;
+    position: relative;
+}
+
+/*NOME*/
+#nameAndTitle h1 {
+    font-family: edwardian;
+    color: #4682b4;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+/*FORMAÇÃO*/
+#nameAndTitle h2{
+    font-family: perandory;
+    color: #9dafbf;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: lighter;    
+}
+
+
+/*LISTA LADO ESQUERDO*/
+#contact {
+    list-style-type: none;;
+}
+
+/*ICONES E COR DOS ICONES*/
+#contact i {
+    width: 25px;
+    color: #4f88bb;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+
+/*PROPORÇÕES DA COLUNA*/
+#container {
+    display: grid;
+    grid-template-columns: 20% auto; 
+    gap: 20px; 
+    grid-column-gap: 20px;
+}
+
+
+
+/*LISTA LADO DIREITO*/
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card h3 {
+    font-family: quick;
+    color: #4682b4;
+}
+
+.card{
+    font-family: quick;
+    border: 1px solid rgba(228, 219, 219, 0.856);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(169, 203, 238, 0.329);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: [offset-x] [offset-y] [blur-radius] [spread-radius] [color];
+    min-height: 200px;
+    max-height: 350px;
+}
+
+
+#sobremim {
+    font-family: serrat;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+/*IMAGENS DE LIVROS*/
+.card img {
+    height: 290px;
+    position: relative;
+    top: -30px;
+    left: 180px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#bibliografia {
+    position: relative;
+    left: 882px;
+    top: -150px;
+}
+
+#livro {
+    position: relative;
+    left: 510px;
+    top: -160px;
+}
+
+/*TORNANDO PROPORCIONAL*/
+#livro1 {
+    position: relative;
+    left: 510px;
+    width: 205px;
+    top: -160px;
+}
+
